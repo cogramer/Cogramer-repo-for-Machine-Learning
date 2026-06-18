@@ -36,7 +36,7 @@ def plot_data(df):
         plt.plot(df["datetime"], df[col], label=col)
 
     plt.xlabel("Datetime")
-    plt.ylabel("Value (m/s)")
+    plt.ylabel("Value(s)")
     plt.legend()
     plt.xticks(rotation=45)
     plt.tight_layout()
@@ -48,3 +48,4 @@ if __name__ == "__main__":
     df = load_data()
     print(df.head(10))
     print(df.info())
+    plot_data(df)
