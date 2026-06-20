@@ -2,9 +2,10 @@ import sqlite3
 import pandas as pd
 import matplotlib.pyplot as plt
 from tqdm.notebook import tqdm
+from pathlib import Path
 tqdm.pandas()
 
-db_path = "D:/personalProjects/Stellar_Sync/StellarDB/12_HoChiMinh.db"
+db_path = Path(__file__).parent / "12_HoChiMinh.db"
 
 table_name = "data_25_01_12_to_25_12_23"
 
@@ -36,7 +37,7 @@ def plot_data(df):
         plt.plot(df["datetime"], df[col], label=col)
 
     plt.xlabel("Datetime")
-    plt.ylabel("Value (m/s)")
+    plt.ylabel("Value(s)")
     plt.legend()
     plt.xticks(rotation=45)
     plt.tight_layout()
@@ -48,3 +49,4 @@ if __name__ == "__main__":
     df = load_data()
     print(df.head(10))
     print(df.info())
+    plot_data(df)
