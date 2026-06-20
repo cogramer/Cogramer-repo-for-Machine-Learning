@@ -2,9 +2,10 @@ import sqlite3
 import pandas as pd
 import matplotlib.pyplot as plt
 from tqdm.notebook import tqdm
+from pathlib import Path
 tqdm.pandas()
 
-db_path = "D:/personalProjects/Stellar_Sync/StellarDB/12_HoChiMinh.db"
+db_path = Path(__file__).parent / "12_HoChiMinh.db"
 
 table_name = "data_25_01_12_to_25_12_23"
 
