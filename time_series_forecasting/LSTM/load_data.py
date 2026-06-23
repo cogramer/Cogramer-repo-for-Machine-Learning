@@ -7,10 +7,10 @@ tqdm.pandas()
 
 db_path = Path(__file__).parent / "12_HoChiMinh.db"
 
-table_name = "data_25_01_12_to_25_12_23"
+table_name = "data_24_09_18_to_26_06_24"
 
-start_date = "2025-01-12"
-end_date = "2025-12-23"
+start_date = "2024-09-18"
+end_date = "2026-06-24"
 columns_to_plot = ["temperature", "humidity", "wind_speed", "pressure", "cloudiness", "solar_radiance"]
 
 query = f'''
