@@ -8,7 +8,7 @@ The models predicts temperature using historical meteorological variables and cy
 
 Link to [OpenWeatherMap](https://openweathermap.org/)
 
-Link to [model training results.](https://docs.google.com/spreadsheets/d/17tpbZEZOtY72469nGBVYa6CG-Byimf8oFetg2LYOqYw/edit?usp=sharing)
+Link to [training results.](https://docs.google.com/spreadsheets/d/17tpbZEZOtY72469nGBVYa6CG-Byimf8oFetg2LYOqYw/edit?usp=sharing)
 
 ---
 
