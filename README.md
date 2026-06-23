@@ -103,10 +103,6 @@ Baseline preprocessing pipeline.
 
 Characteristics:
 
-```sh
-
-```
-
 - Assumes perfect 3-hour timestep continuity
 - Uses row-position based cyclical encoding
 - No missing timestep handling
