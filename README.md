@@ -29,8 +29,6 @@ Link to [model training results.](https://docs.google.com/spreadsheets/d/17tpbZE
 
 Weather data is sourced from OpenWeatherMap using the 5-day / 3-hour forecast API.
 
-Link to the website: https://openweathermap.org/
-
 Forecast target location: Ho Chi Minh City
 
 Current archived forecast data covers: 2024-09-17 → 2026-06-25 = **647 days**.
