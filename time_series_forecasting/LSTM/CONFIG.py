@@ -1,5 +1,5 @@
 CONFIG = {
-    "input_size":    10,     # num features (weather vars + time encodings)
+    "input_size":    12,     # 6 weather + hour_sin + hour_cos + day_sin + day_cos + delta + mask
     "hidden_size":   128,
     "num_layers":    2,
     "output_size":   1,      # 1 = single-var, N = multi-var

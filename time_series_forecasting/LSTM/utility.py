@@ -27,10 +27,13 @@ def run_inference(model, loader, device):
 # ─────────────────────────────────────────────
 # INVERSE TRANSFORM — swap these out for multi-var
 # ─────────────────────────────────────────────
-def inverse_single_var(scaled_vals, scaler, n_weather_features=6):
-    """Inverse-transform a single target column (col 0 = temperature)."""
-    pad_cols = n_weather_features - 1
-    padded   = np.concatenate([scaled_vals, np.zeros((len(scaled_vals), pad_cols))], axis=1)
+def inverse_single_var(scaled_vals, scaler):
+    """Inverse-transform only the target column."""
+    n_features = scaler.n_features_in_
+    padded = np.concatenate(
+        [scaled_vals, np.zeros((len(scaled_vals), n_features - 1))],
+        axis=1
+    )
     return scaler.inverse_transform(padded)[:, 0:1]
 
 
