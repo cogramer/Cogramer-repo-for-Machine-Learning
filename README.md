@@ -4,7 +4,7 @@ This is a multi-feature time series forecasting project using LSTM (Long Short-T
 
 The models predicts temperature using historical meteorological variables and cyclical time encoding, trained on OpenWeatherMap forecast archives.
 
-![OpenWeather Logo](docs\pictures\logo_white.png)
+[docs\pictures\logo_white.png](https://github.com/cogramer/Cogramer-repo-for-Machine-Learning/blob/main/docs/pictures/logo_white.png?raw=true)
 
 Link to [OpenWeatherMap](https://openweathermap.org/)
 
@@ -206,11 +206,11 @@ Missing rows are scattered throughout the archive.
 
 Dataset 1 - Beta Loss
 
-![Dataset 1 - Beta Loss](docs\pictures\test_result_02.png)
+[docs\pictures\test_result_02.png](https://github.com/cogramer/Cogramer-repo-for-Machine-Learning/blob/main/docs/pictures/test_result_02.png?raw=true)
 
 Dataset 1 - Alpha Loss
 
-![Dataset 1 - Alpha Loss](docs\pictures\test_result_07.png)
+[docs\pictures\test_result_07.png](https://github.com/cogramer/Cogramer-repo-for-Machine-Learning/blob/main/docs/pictures/test_result_07.png?raw=true)
 
 ### Dataset (2): Sparse Data
 
@@ -230,11 +230,11 @@ Dataset 1 - Alpha Loss
 
 Dataset 2 - Beta Loss
 
-![Dataset 1 - Beta Loss](docs\pictures\test_result_09.png)
+[docs\pictures\test_result_09.png](https://github.com/cogramer/Cogramer-repo-for-Machine-Learning/blob/main/docs/pictures/test_result_09.png?raw=true)
 
 Dataset 2 - Alpha Loss
 
-![Dataset 1 - Alpha Loss](docs\pictures\test_result_08.png)
+[docs\pictures\test_result_08.png](https://github.com/cogramer/Cogramer-repo-for-Machine-Learning/blob/main/docs/pictures/test_result_08.png?raw=true)
 
 ---
 
